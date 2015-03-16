@@ -4,7 +4,7 @@ web:
   build: .
   command: npm start
   volumes:
-    - "app:/src"
+    - "app:/src/app"
   links:
     - redis
   ports:
